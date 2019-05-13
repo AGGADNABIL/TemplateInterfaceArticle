@@ -1,0 +1,207 @@
+2019-04-07 13:24:10.923  INFO 22064 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Starting TemplateInterfaceArticleApplication on DESKTOP-P1FSBQ6 with PID 22064 (started by Admin in F:\projet scanning\workspace\TemplateInterfaceArticle)
+2019-04-07 13:24:10.930  INFO 22064 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : No active profile set, falling back to default profiles: default
+2019-04-07 13:24:10.994  INFO 22064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 13:24:11.762  INFO 22064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 13:24:12.057  INFO 22064 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 278ms. Found 1 repository interfaces.
+2019-04-07 13:24:12.895  INFO 22064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-07 13:24:14.151  INFO 22064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-07 13:24:14.245  INFO 22064 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-07 13:24:14.335  INFO 22064 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-07 13:24:14.336  INFO 22064 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-07 13:24:14.571  INFO 22064 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-07 13:24:14.722  INFO 22064 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-04-07 13:24:15.659  INFO 22064 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:24:16.078  INFO 22064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-07 13:24:16.104  INFO 22064 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Started TemplateInterfaceArticleApplication in 5.766 seconds (JVM running for 7.549)
+2019-04-07 13:24:16.250  WARN 22064 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 208, SQLState: S0002
+2019-04-07 13:24:16.251 ERROR 22064 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Nom d'objet 'article' non valide.
+2019-04-07 13:24:16.260  INFO 22064 --- [restartedMain] TemplateInterfaceArticleApplication      : Erreur import Article :could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-04-07 13:24:16.268  INFO 22064 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:24:16.272  INFO 22064 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-07 13:24:16.277  INFO 22064 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-04-07 13:40:24.892  INFO 9772 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Starting TemplateInterfaceArticleApplication on DESKTOP-P1FSBQ6 with PID 9772 (started by Admin in F:\projet scanning\workspace\TemplateInterfaceArticle)
+2019-04-07 13:40:24.892  INFO 9772 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : No active profile set, falling back to default profiles: default
+2019-04-07 13:40:24.940  INFO 9772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 13:40:25.329  INFO 9772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 13:40:25.379  INFO 9772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 1 repository interfaces.
+2019-04-07 13:40:26.043  INFO 9772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-07 13:40:27.409  INFO 9772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-07 13:40:27.460  INFO 9772 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-07 13:40:27.510  INFO 9772 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-07 13:40:27.510  INFO 9772 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-07 13:40:27.639  INFO 9772 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-07 13:40:27.744  INFO 9772 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-04-07 13:40:28.373  INFO 9772 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:40:28.683  INFO 9772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-07 13:40:28.708  INFO 9772 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Started TemplateInterfaceArticleApplication in 4.108 seconds (JVM running for 5.864)
+2019-04-07 13:40:28.939  WARN 9772 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 208, SQLState: S0002
+2019-04-07 13:40:28.939 ERROR 9772 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Nom d'objet 'article' non valide.
+2019-04-07 13:40:28.939 ERROR 9772 --- [restartedMain] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+2019-04-07 13:40:28.949  INFO 9772 --- [restartedMain] TemplateInterfaceArticleApplication      : Erreur import Article :could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-04-07 13:40:28.953  INFO 9772 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:40:28.960  INFO 9772 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-07 13:40:28.960  INFO 9772 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-04-07 13:44:49.302  INFO 40180 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Starting TemplateInterfaceArticleApplication on DESKTOP-P1FSBQ6 with PID 40180 (started by Admin in F:\projet scanning\workspace\TemplateInterfaceArticle)
+2019-04-07 13:44:49.305  INFO 40180 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : No active profile set, falling back to default profiles: default
+2019-04-07 13:44:49.359  INFO 40180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 13:44:49.749  INFO 40180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 13:44:49.810  INFO 40180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 1 repository interfaces.
+2019-04-07 13:44:50.439  INFO 40180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-07 13:44:51.550  INFO 40180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-07 13:44:51.599  INFO 40180 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-07 13:44:51.648  INFO 40180 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-07 13:44:51.650  INFO 40180 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-07 13:44:51.798  INFO 40180 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-07 13:44:51.929  INFO 40180 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-04-07 13:44:52.553  INFO 40180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:44:52.838  INFO 40180 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-07 13:44:52.858  INFO 40180 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Started TemplateInterfaceArticleApplication in 3.959 seconds (JVM running for 5.637)
+2019-04-07 13:44:53.059  WARN 40180 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 544, SQLState: S0001
+2019-04-07 13:44:53.059 ERROR 40180 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Impossible d'insérer une valeur explicite dans la colonne identité de la table 'ART_PAR' quand IDENTITY_INSERT est défini à OFF.
+2019-04-07 13:44:53.069 ERROR 40180 --- [restartedMain] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+2019-04-07 13:44:53.069  INFO 40180 --- [restartedMain] TemplateInterfaceArticleApplication      : Erreur import Article :could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-04-07 13:44:53.082  INFO 40180 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:44:53.088  INFO 40180 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-07 13:44:53.093  INFO 40180 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-04-07 13:46:02.562  INFO 49988 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Starting TemplateInterfaceArticleApplication on DESKTOP-P1FSBQ6 with PID 49988 (started by Admin in F:\projet scanning\workspace\TemplateInterfaceArticle)
+2019-04-07 13:46:02.562  INFO 49988 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : No active profile set, falling back to default profiles: default
+2019-04-07 13:46:02.608  INFO 49988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 13:46:03.252  INFO 49988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 13:46:03.359  INFO 49988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 1 repository interfaces.
+2019-04-07 13:46:03.818  INFO 49988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-07 13:46:04.987  INFO 49988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-07 13:46:05.062  INFO 49988 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-07 13:46:05.172  INFO 49988 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-07 13:46:05.182  INFO 49988 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-07 13:46:05.443  INFO 49988 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-07 13:46:05.622  INFO 49988 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-04-07 13:46:06.118  INFO 49988 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:46:06.433  INFO 49988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-07 13:46:06.458  INFO 49988 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Started TemplateInterfaceArticleApplication in 4.226 seconds (JVM running for 5.898)
+2019-04-07 13:46:06.699  WARN 49988 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 8152, SQLState: 22001
+2019-04-07 13:46:06.699 ERROR 49988 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Les données de chaîne ou binaires seront tronquées.
+2019-04-07 13:46:06.709  INFO 49988 --- [restartedMain] TemplateInterfaceArticleApplication      : Erreur import Article :could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+2019-04-07 13:46:06.713  INFO 49988 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:46:06.718  INFO 49988 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-07 13:46:06.718  INFO 49988 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-04-07 13:53:10.204  INFO 1808 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Starting TemplateInterfaceArticleApplication on DESKTOP-P1FSBQ6 with PID 1808 (started by Admin in F:\projet scanning\workspace\TemplateInterfaceArticle)
+2019-04-07 13:53:10.204  INFO 1808 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : No active profile set, falling back to default profiles: default
+2019-04-07 13:53:10.244  INFO 1808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 13:53:10.764  INFO 1808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 13:53:10.819  INFO 1808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 1 repository interfaces.
+2019-04-07 13:53:11.288  INFO 1808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-07 13:53:12.435  INFO 1808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-07 13:53:12.487  INFO 1808 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-07 13:53:12.538  INFO 1808 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-07 13:53:12.544  INFO 1808 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-07 13:53:12.667  INFO 1808 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-07 13:53:12.813  INFO 1808 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-04-07 13:53:13.305  INFO 1808 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:53:13.599  INFO 1808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-07 13:53:13.623  INFO 1808 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Started TemplateInterfaceArticleApplication in 3.877 seconds (JVM running for 5.707)
+2019-04-07 13:53:13.628  INFO 1808 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code article :A1406
+2019-04-07 13:53:13.628  INFO 1808 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation court :Filtre a air PEUGEOT 2008 1.6 HDi (114Cv)
+2019-04-07 13:53:13.628  INFO 1808 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation longue :A172238
+2019-04-07 13:53:13.628  INFO 1808 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code tiers :FAB0002
+2019-04-07 13:53:13.684  WARN 1808 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 8152, SQLState: 22001
+2019-04-07 13:53:13.684 ERROR 1808 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Les données de chaîne ou binaires seront tronquées.
+2019-04-07 13:53:13.688  INFO 1808 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Erreur import Article :could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+2019-04-07 13:53:13.695  INFO 1808 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:53:13.695  INFO 1808 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-07 13:53:13.704  INFO 1808 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-04-07 13:57:09.284  INFO 18264 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Starting TemplateInterfaceArticleApplication on DESKTOP-P1FSBQ6 with PID 18264 (started by Admin in F:\projet scanning\workspace\TemplateInterfaceArticle)
+2019-04-07 13:57:09.284  INFO 18264 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : No active profile set, falling back to default profiles: default
+2019-04-07 13:57:09.324  INFO 18264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 13:57:09.713  INFO 18264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 13:57:09.774  INFO 18264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 1 repository interfaces.
+2019-04-07 13:57:10.239  INFO 18264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-07 13:57:11.298  INFO 18264 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-07 13:57:11.344  INFO 18264 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-07 13:57:11.387  INFO 18264 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-07 13:57:11.394  INFO 18264 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-07 13:57:11.533  INFO 18264 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-07 13:57:11.624  INFO 18264 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-04-07 13:57:12.218  INFO 18264 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:57:12.567  INFO 18264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-07 13:57:12.594  INFO 18264 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Started TemplateInterfaceArticleApplication in 3.57 seconds (JVM running for 5.566)
+2019-04-07 13:57:12.608  INFO 18264 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code article :A1406
+2019-04-07 13:57:12.608  INFO 18264 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation court :Filtre a air PEUGEOT 2008 1.6 HDi (114Cv)
+2019-04-07 13:57:12.608  INFO 18264 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation longue :A172238
+2019-04-07 13:57:12.608  INFO 18264 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code tiers :FAB0002
+2019-04-07 13:57:12.674  WARN 18264 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 8152, SQLState: 22001
+2019-04-07 13:57:12.674 ERROR 18264 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Les données de chaîne ou binaires seront tronquées.
+2019-04-07 13:57:12.688  INFO 18264 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Erreur import Article :could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+2019-04-07 13:57:12.698  INFO 18264 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:57:12.698  INFO 18264 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-07 13:57:12.705  INFO 18264 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-04-07 13:59:25.644  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Starting TemplateInterfaceArticleApplication on DESKTOP-P1FSBQ6 with PID 19388 (started by Admin in F:\projet scanning\workspace\TemplateInterfaceArticle)
+2019-04-07 13:59:25.656  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : No active profile set, falling back to default profiles: default
+2019-04-07 13:59:25.693  INFO 19388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 13:59:26.064  INFO 19388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 13:59:26.118  INFO 19388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces.
+2019-04-07 13:59:26.603  INFO 19388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-07 13:59:27.785  INFO 19388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-07 13:59:27.834  INFO 19388 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-07 13:59:27.884  INFO 19388 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-07 13:59:27.884  INFO 19388 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-07 13:59:28.007  INFO 19388 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-07 13:59:28.109  INFO 19388 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-04-07 13:59:28.629  INFO 19388 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:59:28.932  INFO 19388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-07 13:59:28.954  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Started TemplateInterfaceArticleApplication in 3.712 seconds (JVM running for 5.441)
+2019-04-07 13:59:28.958  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code article :A1406
+2019-04-07 13:59:28.958  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation longue :Filtre a air PEUGEOT 2008 1.6 HDi (114Cv)
+2019-04-07 13:59:28.958  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation court :A172238
+2019-04-07 13:59:28.958  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code tiers :FAB0002
+2019-04-07 13:59:29.141  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code article :G7277
+2019-04-07 13:59:29.142  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation longue :Amortisseur RENAULT CLIO IV 1.2 16V (73Cv)
+2019-04-07 13:59:29.142  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation court :A13265
+2019-04-07 13:59:29.142  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code tiers :FAB0010
+2019-04-07 13:59:29.174  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code article :GDB628
+2019-04-07 13:59:29.174  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation longue :Jeu de 4 plaquettes de frein Ã  disque
+2019-04-07 13:59:29.174  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation court :A23545
+2019-04-07 13:59:29.174  INFO 19388 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code tiers :FAB0100
+2019-04-07 13:59:29.184  INFO 19388 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 13:59:29.184  INFO 19388 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-07 13:59:29.194  INFO 19388 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-04-07 14:00:35.714  INFO 32404 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Starting TemplateInterfaceArticleApplication on DESKTOP-P1FSBQ6 with PID 32404 (started by Admin in F:\projet scanning\workspace\TemplateInterfaceArticle)
+2019-04-07 14:00:35.714  INFO 32404 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : No active profile set, falling back to default profiles: default
+2019-04-07 14:00:35.754  INFO 32404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-07 14:00:36.113  INFO 32404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-07 14:00:36.193  INFO 32404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 1 repository interfaces.
+2019-04-07 14:00:36.823  INFO 32404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-07 14:00:38.173  INFO 32404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-07 14:00:38.237  INFO 32404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-07 14:00:38.321  INFO 32404 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-04-07 14:00:38.323  INFO 32404 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-04-07 14:00:38.496  INFO 32404 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-07 14:00:38.647  INFO 32404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2019-04-07 14:00:39.187  INFO 32404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 14:00:39.508  INFO 32404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-07 14:00:39.548  INFO 32404 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Started TemplateInterfaceArticleApplication in 4.085 seconds (JVM running for 5.69)
+2019-04-07 14:00:39.554  INFO 32404 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code article :A1406
+2019-04-07 14:00:39.554  INFO 32404 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation longue :Filtre a air PEUGEOT 2008 1.6 HDi (114Cv)
+2019-04-07 14:00:39.554  INFO 32404 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : designation court :A172238
+2019-04-07 14:00:39.554  INFO 32404 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : code tiers :FAB0002
+2019-04-07 14:00:39.766  WARN 32404 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 2601, SQLState: 23000
+2019-04-07 14:00:39.766 ERROR 32404 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : Impossible d'insérer une ligne de clé en double dans l'objet « dbo.ART_PAR » avec un index unique « ART_CCAA ». Valeur de clé dupliquée : (<NULL>, A1406).
+2019-04-07 14:00:39.772  INFO 32404 --- [restartedMain] .t.n.TemplateInterfaceArticleApplication : Erreur import Article :could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-04-07 14:00:39.784  INFO 32404 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-07 14:00:39.784  INFO 32404 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-04-07 14:00:39.784  INFO 32404 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
